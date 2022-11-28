@@ -96,3 +96,7 @@ body {
     flex-wrap: wrap; /* set the elements to wrap */
     justify-content: flex-end; /* flex-end will align the elements to the right */
 }
+.header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+  }
