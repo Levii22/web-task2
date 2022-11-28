@@ -248,3 +248,7 @@ body {
     text-align: center;
     position: relative;
 }
+.services .services-content .image::before {
+    content: "";
+    background-color: var(--secondary-color);
+}
