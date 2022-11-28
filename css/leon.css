@@ -364,3 +364,6 @@ body {
     line-height: 2;
     margin-bottom: 50px;
 }
+.about .about-content .text hr {
+    width: 50%;
+}
