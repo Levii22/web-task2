@@ -44,3 +44,10 @@ body {
       width: 1170px;
     }
   }
+/* End of global rules */
+
+/* Components */
+.special-heading {
+    color: #ebeced;
+    font-size: 100px;
+  }
