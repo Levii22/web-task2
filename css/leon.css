@@ -99,4 +99,5 @@ body {
 .header .links .icon span {
     background-color: #333;
     margin-bottom: 5px;
+    height: 2px;
   }
