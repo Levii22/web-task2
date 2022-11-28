@@ -189,3 +189,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* set the grid columns to repeat auto-fill with a minimum width of 300px and a maximum width of 1fr */
     grid-gap: 20px;
 }
+.features .feat {
+    padding: 20px;
+    text-align: center;
+}
