@@ -108,3 +108,6 @@ body {
     width: 60%;
     transition: var(--main-duration); /* sets the transition duration to 0.5s */
 }
+.header .links .icon span:last-child {
+    width: 100%;
+}
