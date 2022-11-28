@@ -69,3 +69,10 @@ body {
       margin-top: -20px;
     }
   }
+
+/* End of Components */
+
+/* header */
+.header {
+    padding: 20px; /* set padding to 20px */
+  }
