@@ -386,3 +386,7 @@ body {
     padding-bottom: var(--section-padding);
     text-align: center;
 }
+.contact .info .link {
+    display: block; 
+    
+}
