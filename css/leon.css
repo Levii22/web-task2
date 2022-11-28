@@ -176,3 +176,11 @@ body {
     font-size: 19px;
     line-height: 1.8;
   }
+/* End of Landing section */
+
+/* Features */
+.features {
+    padding-top: var(--section-padding); /* use the section padding variable */
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background); /* use the section background variable */
+}
