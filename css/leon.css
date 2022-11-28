@@ -316,3 +316,8 @@ body {
       text-align: center;
     }
 }
+.about .about-content .image {
+    position: relative;
+    width: 250px;
+    height: 375px;
+}
