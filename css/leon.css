@@ -87,3 +87,6 @@ body {
 .header .links {
     position: relative; 
 }
+.header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+  }
