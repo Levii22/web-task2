@@ -353,3 +353,6 @@ body {
       display: none;
     }
 }
+.about .about-content .image img {
+    max-width: 100%;
+}
