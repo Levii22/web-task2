@@ -205,3 +205,10 @@ body {
     color: #777;
     font-size: 17px;
 }
+/* End of Features section */
+
+/* services */
+.services {
+    padding-top: var(--section-padding); /* use the section padding variable */
+    padding-bottom: var(--section-padding);
+}
