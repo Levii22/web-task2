@@ -373,3 +373,11 @@ body {
     line-height: 2;
     color: #777;
 }
+/* End of about section */
+
+/* Contact */
+.contact {
+    padding-top: var(--section-padding); /* use the section padding variable */
+    padding-bottom: var(--section-padding); 
+    background-color: var(--section-background); /* use the section background variable */
+}
