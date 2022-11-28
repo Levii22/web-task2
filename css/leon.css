@@ -391,4 +391,5 @@ body {
     font-size: 35px;
     font-weight: 800;
     color: var(--main-color);
+    text-decoration: none;
 }
