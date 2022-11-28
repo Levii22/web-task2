@@ -292,3 +292,8 @@ body {
 .portfolio .portfolio-content .card .info h3 {
     margin: 0;
 }
+.portfolio .portfolio-content .card .info p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
