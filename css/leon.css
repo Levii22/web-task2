@@ -233,3 +233,6 @@ body {
     color: var(--main-color);
     flex-basis: 60px;
 }
+.services .services-content .srv .text {
+    flex: 1;
+}
