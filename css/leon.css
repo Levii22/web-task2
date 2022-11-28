@@ -409,3 +409,9 @@ body {
       font-size: 25px;
     }
 }
+/* End of contact section */
+
+/* Footer */
+.footer {
+    background-color: var(--secondary-color);
+}
