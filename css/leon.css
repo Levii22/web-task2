@@ -170,4 +170,5 @@ body {
     margin: 0;
     font-weight: bold;
     font-size: 50px;
+    color: var(--main-color);
 }
