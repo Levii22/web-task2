@@ -7,3 +7,10 @@
     --main-duration: 0.5s;
 }
 /* End of Global Variables */
+
+/* global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
