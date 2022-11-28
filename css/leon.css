@@ -76,3 +76,8 @@ body {
 .header {
     padding: 20px; /* set padding to 20px */
   }
+  .header .container {
+    display: flex; /* set display to flex */
+    justify-content: space-between; /* set the space between the elements to be equal */
+    align-items: center; /* align the elements to the center */
+  }
