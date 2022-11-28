@@ -5,49 +5,49 @@
     --section-padding: 60px;
     --section-background: #f6f6f6;
     --main-duration: 0.5s;
-}
-/* End of Global Variables */
-
-/* global rules */
-* {
+  }
+  /* End of Global Variables */
+  
+  /* global rules */
+  * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-html {
+  html {
     scroll-behavior: smooth;
-}
-body {
+  }
+  body {
     font-family: "Work Sans", sans-serif;
   }
-.container {
+  .container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
-/* Small */
-@media (min-width: 768px) {
+  }
+  /* Small */
+  @media (min-width: 768px) {
     .container {
       width: 750px;
     }
   }
-/* Medium */
-@media (min-width: 992px) {
+  /* Medium */
+  @media (min-width: 992px) {
     .container {
       width: 970px;
     }
   }
-/* Large */
-@media (min-width: 1200px) {
+  /* Large */
+  @media (min-width: 1200px) {
     .container {
       width: 1170px;
     }
   }
-/* End of global rules */
-
-/* Components */
-.special-heading {
+  /* End of global rules */
+  
+  /* Components */
+  .special-heading {
     color: #ebeced;
     font-size: 100px;
     text-align: center;
@@ -55,13 +55,13 @@ body {
     letter-spacing: -3px;
     margin: 0;
   }
-.special-heading + p {
+  .special-heading + p {
     margin: -30px 0 0;
     font-size: 20px; /* set font size to 20px */
     text-align: center; /* center the text */
     color: #797979;
-}
-@media (max-width: 767px) {
+  }
+  @media (max-width: 767px) {
     .special-heading {
       font-size: 60px;
     }
@@ -69,11 +69,11 @@ body {
       margin-top: -20px;
     }
   }
-
-/* End of Components */
-
-/* header */
-.header {
+  
+  /* End of Components */
+  
+  /* header */
+  .header {
     padding: 20px; /* set padding to 20px */
   }
   .header .container {
@@ -81,37 +81,37 @@ body {
     justify-content: space-between; /* set the space between the elements to be equal */
     align-items: center; /* align the elements to the center */
   }
-.header .logo {
+  .header .logo {
     width: 60px;
-}
-.header .links {
-    position: relative; 
-}
-.header .links:hover .icon span:nth-child(2) {
+  }
+  .header .links {
+    position: relative;
+  }
+  .header .links:hover .icon span:nth-child(2) {
     width: 100%;
   }
-.header .links .icon {
+  .header .links .icon {
     width: 30px;
     display: flex;
     flex-wrap: wrap; /* set the elements to wrap */
     justify-content: flex-end; /* flex-end will align the elements to the right */
-}
-.header .links .icon span {
+  }
+  .header .links .icon span {
     background-color: #333;
     margin-bottom: 5px;
     height: 2px;
   }
-.header .links .icon span:first-child {
+  .header .links .icon span:first-child {
     width: 100%;
-}
-.header .links .icon span:nth-child(2) {
+  }
+  .header .links .icon span:nth-child(2) {
     width: 60%;
     transition: var(--main-duration); /* sets the transition duration to 0.5s */
-}
-.header .links .icon span:last-child {
+  }
+  .header .links .icon span:last-child {
     width: 100%;
-}
-.header .links ul {
+  }
+  .header .links ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -121,212 +121,227 @@ body {
     min-width: 200px;
     top: calc(100% + 15px);
     display: none;
-    z-index: 1; 
-}
-.header .links ul::before {
+    z-index: 1;
+  }
+  .header .links ul::before {
     content: "";
-    border-width: 10px; 
+    border-width: 10px;
     border-style: solid;
     border-color: transparent transparent #f6f6f6 transparent;
     position: absolute;
     right: 5px;
     top: -20px;
-}
-.header .links:hover ul {
+  }
+  .header .links:hover ul {
     display: block;
   }
-.header .links ul li a {
+  .header .links ul li a {
     display: block;
     padding: 15px;
     text-decoration: none;
     color: #333;
-    transition: var(--main-duration); 
-}
-.header .links ul li a:hover {
+    transition: var(--main-duration);
+  }
+  .header .links ul li a:hover {
     padding-left: 25px;
-}
-.header .links ul li:not(:last-child) a {
+  }
+  .header .links ul li:not(:last-child) a {
     border-bottom: 1px solid #ddd;
-}
-/* End of header */
-
-/* Landing */
-.landing {
+  }
+  /* End of header */
+  
+  /* Landing */
+  .landing {
     background-image: url(../images/landing.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
-}
-.landing .intro-text {
+  }
+  .landing .intro-text {
     position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     width: 320px;
-    max-width: 100%; 
-}
-.landing .intro-text h1 {
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
     margin: 0;
     font-weight: bold;
     font-size: 50px;
     color: var(--main-color);
-}
-.landing .intro-text p {
+  }
+  .landing .intro-text p {
     font-size: 19px;
     line-height: 1.8;
   }
-/* End of Landing section */
-
-/* Features */
-.features {
+  /* End of Landing section */
+  
+  /* Features */
+  .features {
     padding-top: var(--section-padding); /* use the section padding variable */
     padding-bottom: var(--section-padding);
-    background-color: var(--section-background); /* use the section background variable */
-}
-.features .container {
+    background-color: var(
+      --section-background
+    ); /* use the section background variable */
+  }
+  .features .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* set the grid columns to repeat auto-fill with a minimum width of 300px and a maximum width of 1fr */
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(300px, 1fr)
+    ); /* set the grid columns to repeat auto-fill with a minimum width of 300px and a maximum width of 1fr */
     grid-gap: 20px;
-}
-.features .feat {
+  }
+  .features .feat {
     padding: 20px;
     text-align: center;
-}
-.features .feat i {
+  }
+  .features .feat i {
     color: var(--main-color);
-}
-.features .feat h3 {
+  }
+  .features .feat h3 {
     font-weight: 800;
     margin: 30px 0;
-}
-.features .feat p {
+  }
+  .features .feat p {
     line-height: 1.8;
     color: #777;
     font-size: 17px;
-}
-/* End of Features section */
-
-/* services */
-.services {
+  }
+  /* End of Features section */
+  
+  /* services */
+  .services {
     padding-top: var(--section-padding); /* use the section padding variable */
     padding-bottom: var(--section-padding);
-}
-.services .services-content {
+  }
+  .services .services-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* set the columns to repeat auto-fill with a minimum width of 300px and a maximum of 1fr */
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(300px, 1fr)
+    ); /* set the columns to repeat auto-fill with a minimum width of 300px and a maximum of 1fr */
     grid-gap: 30px;
-    margin-top: 100px; 
-}
-.services .services-content .srv {
+    margin-top: 100px;
+  }
+  .services .services-content .srv {
     display: flex;
     margin-bottom: 40px; /* will add a margin of 40px to the bottom of the element */
-}
-/* media query for the services section */
-@media (max-width: 767px) {
+  }
+  /* media query for the services section */
+  @media (max-width: 767px) {
     .services .services-content .srv {
       flex-direction: column;
       text-align: center;
     }
   }
-.services .services-content .srv i {
+  .services .services-content .srv i {
     color: var(--main-color);
     flex-basis: 60px;
-}
-.services .services-content .srv .text {
+  }
+  .services .services-content .srv .text {
     flex: 1;
-}
-.services .services-content .srv .text h3 {
+  }
+  .services .services-content .srv .text h3 {
     margin: 0 0 20px;
-}
-.services .services-content .srv .text p {
+  }
+  .services .services-content .srv .text p {
     color: #444;
     font-weight: 300;
     line-height: 1.6;
-}
-.services .services-content .image {
+  }
+  .services .services-content .image {
     text-align: center;
     position: relative;
-}
-.services .services-content .image::before {
+  }
+  .services .services-content .image::before {
     content: "";
     background-color: var(--secondary-color);
     width: 100px;
-    height: calc(100% + 100px); 
+    height: calc(100% + 100px);
     top: -50px;
     position: absolute;
     right: 0;
     z-index: -1;
-}
-.services .services-content .image img {
+  }
+  .services .services-content .image img {
     width: 260px;
-}
-@media (max-width: 1199px) {
+  }
+  @media (max-width: 1199px) {
     .image-column {
       display: none;
     }
-}
-/* End of services section */
-
-/* Portfolio */
-.portfolio {
+  }
+  /* End of services section */
+  
+  /* Portfolio */
+  .portfolio {
     padding-top: var(--section-padding); /* use the section padding variable */
     padding-bottom: var(--section-padding);
-    background-color: var(--section-background); /* use the section background variable */
-}
-.portfolio .portfolio-content {
+    background-color: var(
+      --section-background
+    ); /* use the section background variable */
+  }
+  .portfolio .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* set the columns to repeat auto-fill with a minimum width of 300px and a maximum of 1fr */
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(300px, 1fr)
+    ); /* set the columns to repeat auto-fill with a minimum width of 300px and a maximum of 1fr */
     grid-gap: 30px;
-    margin-top: 80px; 
-}
-.portfolio .portfolio-content .card {
+    margin-top: 80px;
+  }
+  .portfolio .portfolio-content .card {
     background-color: white;
-}
-.portfolio .portfolio-content .card img {
+  }
+  .portfolio .portfolio-content .card img {
     max-width: 100%;
-}
-.portfolio .portfolio-content .card .info {
+  }
+  .portfolio .portfolio-content .card .info {
     padding: 20px;
-}
-.portfolio .portfolio-content .card .info h3 {
+  }
+  .portfolio .portfolio-content .card .info h3 {
     margin: 0;
-}
-.portfolio .portfolio-content .card .info p {
+  }
+  .portfolio .portfolio-content .card .info p {
     color: #777;
     line-height: 1.6;
     margin-bottom: 0;
-}
-/* End of Portfolio section */
-
-/* about */
-.about {
+  }
+  /* End of Portfolio section */
+  
+  /* about */
+  .about {
     padding-top: var(--section-padding); /* use the section padding variable */
-    padding-bottom: calc(var(--section-padding) + 60px); /* use the section padding variable and add 60px to it */
-}
-.about .about-content {
+    padding-bottom: calc(
+      var(--section-padding) + 60px
+    ); /* use the section padding variable and add 60px to it */
+  }
+  .about .about-content {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-@media (max-width: 991px) {
+  }
+  @media (max-width: 991px) {
     .about .about-content {
       flex-direction: column;
       text-align: center;
     }
-}
-.about .about-content .image {
+  }
+  .about .about-content .image {
     position: relative;
     width: 250px;
     height: 375px;
-}
-@media (max-width: 991px) {
+  }
+  @media (max-width: 991px) {
     .about .about-content .image {
       margin: 0 auto 60px;
     }
-}
-.about .about-content .image::before {
+  }
+  .about .about-content .image::before {
     content: "";
     position: absolute;
     background-color: #ebeced;
@@ -335,8 +350,8 @@ body {
     top: -40px;
     left: -20px;
     z-index: -1;
-}
-.about .about-content .image::after {
+  }
+  .about .about-content .image::after {
     top: -40px;
     content: "";
     position: absolute;
@@ -345,81 +360,85 @@ body {
     border-left: 80px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
     z-index: -1;
-    right: -150px; 
-}
-@media (max-width: 991px) {
+    right: -150px;
+  }
+  @media (max-width: 991px) {
     .about .about-content .image::before,
     .about .about-content .image::after {
       display: none;
     }
-}
-.about .about-content .image img {
+  }
+  .about .about-content .image img {
     max-width: 100%;
-}
-.about .about-content .text {
+  }
+  .about .about-content .text {
     flex-basis: calc(100% - 500px);
-}
-.about .about-content .text p:first-of-type {
+  }
+  .about .about-content .text p:first-of-type {
     font-weight: bold;
     line-height: 2;
     margin-bottom: 50px;
-}
-.about .about-content .text hr {
+  }
+  .about .about-content .text hr {
     width: 50%;
     display: inline-block;
     border-color: var(--main-color);
-}
-.about .about-content .text p:last-of-type {
+  }
+  .about .about-content .text p:last-of-type {
     line-height: 2;
     color: #777;
-}
-/* End of about section */
-
-/* Contact */
-.contact {
+  }
+  /* End of about section */
+  
+  /* Contact */
+  .contact {
     padding-top: var(--section-padding); /* use the section padding variable */
-    padding-bottom: var(--section-padding); 
-    background-color: var(--section-background); /* use the section background variable */
-}
-.contact .info {
+    padding-bottom: var(--section-padding);
+    background-color: var(
+      --section-background
+    ); /* use the section background variable */
+  }
+  .contact .info {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     text-align: center;
-}
-.contact .info .link {
-    display: block; 
+  }
+  .contact .info .link {
+    display: block;
     font-size: 35px;
     font-weight: 800;
     color: var(--main-color);
     text-decoration: none;
-}
-.contact .info .social {
+  }
+  .contact .info .social {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     font-size: 16px;
-}
-.contact .info .social i {
+  }
+  .contact .info .social i {
     margin-left: 10px;
     color: var(--secondary-color);
-}
-@media (max-width: 767px) {
+  }
+  @media (max-width: 767px) {
     .contact .info .label,
     .contact .info .link {
       font-size: 25px;
     }
-}
-/* End of contact section */
-
-/* Footer */
-.footer {
+  }
+  /* End of contact section */
+  
+  /* Footer */
+  .footer {
     background-color: var(--secondary-color);
     color: white;
     padding: 30px 10px; /* top and bottom padding of 30px and left and right padding of 10px */
     text-align: center;
     font-size: 18px;
-}
-.footer span {
+  }
+  .footer span {
     font-weight: bold;
     color: var(--main-color);
-}
+  }
+  /* End of footer */
+  
