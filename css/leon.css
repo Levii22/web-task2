@@ -196,3 +196,7 @@ body {
 .features .feat i {
     color: var(--main-color);
 }
+.features .feat h3 {
+    font-weight: 800;
+    margin: 30px 0;
+  }
