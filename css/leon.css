@@ -81,3 +81,6 @@ body {
     justify-content: space-between; /* set the space between the elements to be equal */
     align-items: center; /* align the elements to the center */
   }
+.header .logo {
+    width: 60px;
+}
