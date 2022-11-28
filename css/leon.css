@@ -266,3 +266,11 @@ body {
       display: none;
     }
 }
+/* End of services section */
+
+/* Portfolio */
+.portfolio {
+    padding-top: var(--section-padding); /* use the section padding variable */
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background); /* use the section background variable */
+}
