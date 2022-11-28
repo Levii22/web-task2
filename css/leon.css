@@ -330,4 +330,6 @@ body {
     content: "";
     position: absolute;
     background-color: #ebeced;
+    width: 100px;
+    height: calc(100% + 80px); /* set the height to 100% + 80px */
 }
