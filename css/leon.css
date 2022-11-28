@@ -336,3 +336,6 @@ body {
     left: -20px;
     z-index: -1;
 }
+.about .about-content .image::after {
+    
+}
