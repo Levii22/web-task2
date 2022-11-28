@@ -388,5 +388,6 @@ body {
 }
 .contact .info .link {
     display: block; 
-    
+    font-size: 35px;
+    font-weight: 800;
 }
