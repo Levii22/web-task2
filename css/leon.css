@@ -123,3 +123,6 @@ body {
     display: none;
     z-index: 1; 
 }
+.header .links ul::before {
+    content: "";
+}
