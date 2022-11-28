@@ -280,3 +280,6 @@ body {
     grid-gap: 30px;
     margin-top: 80px; 
 }
+.portfolio .portfolio-content .card {
+    background-color: white;
+}
