@@ -304,3 +304,6 @@ body {
     padding-top: var(--section-padding); /* use the section padding variable */
     padding-bottom: calc(var(--section-padding) + 60px); /* use the section padding variable and add 60px to it */
 }
+.about .about-content {
+    margin-top: 100px;
+}
