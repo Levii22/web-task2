@@ -366,4 +366,5 @@ body {
 }
 .about .about-content .text hr {
     width: 50%;
+    display: inline-block;
 }
