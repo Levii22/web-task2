@@ -251,4 +251,5 @@ body {
 .services .services-content .image::before {
     content: "";
     background-color: var(--secondary-color);
+    width: 100px;
 }
