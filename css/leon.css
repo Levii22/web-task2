@@ -347,3 +347,9 @@ body {
     z-index: -1;
     right: -150px; 
 }
+@media (max-width: 991px) {
+    .about .about-content .image::before,
+    .about .about-content .image::after {
+      display: none;
+    }
+}
