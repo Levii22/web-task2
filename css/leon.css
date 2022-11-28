@@ -327,5 +327,7 @@ body {
     }
 }
 .about .about-content .image::before {
-    
+    content: "";
+    position: absolute;
+    background-color: #ebeced;
 }
