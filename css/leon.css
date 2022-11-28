@@ -258,3 +258,6 @@ body {
     right: 0;
     z-index: -1;
 }
+.services .services-content .image img {
+    width: 260px;
+}
