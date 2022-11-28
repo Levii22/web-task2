@@ -222,3 +222,10 @@ body {
     display: flex;
     margin-bottom: 40px; /* will add a margin of 40px to the bottom of the element */
 }
+/* media query for the services section */
+@media (max-width: 767px) {
+    .services .services-content .srv {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
