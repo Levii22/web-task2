@@ -310,3 +310,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+@media (max-width: 991px) {
+    .about .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+}
