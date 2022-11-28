@@ -184,3 +184,6 @@ body {
     padding-bottom: var(--section-padding);
     background-color: var(--section-background); /* use the section background variable */
 }
+.features .container {
+    display: grid; 
+}
