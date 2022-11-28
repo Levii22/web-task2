@@ -119,4 +119,5 @@ body {
     position: absolute;
     right: 0;
     min-width: 200px;
+    top: calc(100% + 15px);
 }
